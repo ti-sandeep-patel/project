@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer .footer-top .p-title::after {
-  content: url('images/Rectangle.png');
+  content: url('../images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -476,7 +476,7 @@ section {
 }
 
 #services .services-title::after {
-  content: url('images/Rectangle.png');
+  content: url('../images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -519,7 +519,7 @@ section {
 }
 
 #ourwork .ourwork-title::after {
-  content: url('images/Rectangle.png');
+  content: url('../images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -561,7 +561,7 @@ section {
 }
 
 #ourwork .ourwork-view-more::after {
-  content: url("images/viewmore.png");
+  content: url("../images/viewmore.png");
   margin-left: 20px;
 }
 
@@ -587,7 +587,7 @@ section {
 }
 
 #blog .blog-title::after {
-  content: url('images/Rectangle.png');
+  content: url('../images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -627,7 +627,7 @@ section {
 }
 
 #blog .blog-link::after {
-  content: url('images/blogviewmore.png');
+  content: url('../images/blogviewmore.png');
   margin-left: 10px;
 }
 
@@ -641,7 +641,7 @@ section {
 }
 
 #blog .blog-view-more::after {
-  content: url('images/viewmore.png');
+  content: url('../images/viewmore.png');
   margin-left: 20px;
 }
 
@@ -672,6 +672,6 @@ section {
 }
 
 #testimonial .testimonial-title::after {
-  content: url('images/Rectangle.png');
+  content: url('../images/Rectangle.png');
   margin-left: 20px;
 }
