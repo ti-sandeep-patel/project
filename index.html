@@ -159,7 +159,7 @@
                                 alt="Card image cap">
                         </div>
 
-                        <a href="#button" class="card-button"><img src="/images/cardbutton.png"></a>
+                        <a href="#button" class="card-button"><img src="images/cardbutton.png"></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -176,7 +176,7 @@
                                 alt="Card image cap">
                         </div>
 
-                        <a href="#button" class="card-button"><img src="/images/cardbutton.png"></a>
+                        <a href="#button" class="card-button"><img src="images/cardbutton.png"></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -193,7 +193,7 @@
                                 alt="Card image cap">
                         </div>
 
-                        <a href="#button" class="card-button"><img src="/images/cardbutton.png"></a>
+                        <a href="#button" class="card-button"><img src="images/cardbutton.png"></a>
                     </div>
                 </div>
             </div>
@@ -231,7 +231,6 @@
                         <img src="/images/nextimg.png" alt="">
                     </a>
                 </div>
-
             </div>
         </div>
     </section>
@@ -348,7 +347,7 @@
                         <h3 style="margin: 0;padding: 0;">
                             <img src="images/footerlogo.svg">
                         </h3>
-                        <img src="/images/Rectangle.png">
+                        <img src="images/Rectangle.png">
                         <ul>
                             <li><a href="#" style="color: #FFFFFF;
                                 font-family: Quicksand,Regular;
@@ -402,7 +401,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h3 style="margin: 0;padding: 0;">Dedicated Resources</h3>
-                        <img src="/images/Rectangle.png">
+                        <img src="images/Rectangle.png">
                         <ul>
                             <li><a href="#" style="color: #FFFFFF;
                                 font-family: Quicksand,Regular;
@@ -467,12 +466,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script>
-        $('.owl-carousel').owlCarousel({
-            margin: 10,
+        $('.loop').owlCarousel({
+            center: true,
+            items: 2,
             loop: true,
-            autoWidth: true,
-            items: 4
-        })
+            margin: 10,
+            responsive: {
+                600: {
+                    items: 4
+                }
+            }
+        });
+        $('.nonloop').owlCarousel({
+            center: true,
+            items: 2,
+            loop: false,
+            margin: 10,
+            responsive: {
+                600: {
+                    items: 4
+                }
+            }
+        });
     </script>
 </body>
 
