@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer .footer-top .p-title::after {
-  content: url('../images/Rectangle.png');
+  content: url('/images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -476,7 +476,7 @@ section {
 }
 
 #services .services-title::after {
-  content: url('../images/Rectangle.png');
+  content: url('/images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -587,7 +587,7 @@ section {
 }
 
 #blog .blog-title::after {
-  content: url('../images/Rectangle.png');
+  content: url('images/Rectangle.png');
   margin-left: 20px;
 }
 
@@ -627,7 +627,7 @@ section {
 }
 
 #blog .blog-link::after {
-  content: url('../images/blogviewmore.png');
+  content: url('images/blogviewmore.png');
   margin-left: 10px;
 }
 
@@ -669,6 +669,7 @@ section {
   color: #000000;
   font-family: Quicksand, Bold;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 #testimonial .testimonial-title::after {
