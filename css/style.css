@@ -297,8 +297,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   border: 1px;
   height: inherit;
-  padding: 10px 10px 10px 10px;
+  padding: 7px 70px 10px 10px;
   border-radius: 8px;
+  color: #FFFFFF;
 }
 
 #footer .footer-top button {
@@ -307,6 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Quicksand", Bold;
   font-size: 16px;
   border: 1px;
+  font-weight: bold;
 }
 
 #footer .footer-top h4 {
@@ -455,6 +457,13 @@ section {
   color: #000000;
   background-color: #FFFFFF;
   border-color: #FFFFFF;
+}
+
+.bg-image{
+  background-image: url("../images/bannerimage.png");
+}
+.contact-form-image{
+  background-image: url("../images/contact-form.png");
 }
 
 /*--------------------------------------------------------------
