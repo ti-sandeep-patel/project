@@ -250,7 +250,7 @@ body {
 
 #about {
 	width: 100%;
-	/* height: 89.6vh; */
+	height: 89.6vh;
 	background: url("../img/banner.png") top left;
 	background-size: cover;
 	position: relative;
@@ -293,5 +293,5 @@ body {
 #process .card-text{
 	font-family: 'Quicksand',Regular;
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: 200;
 }
