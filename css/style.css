@@ -241,7 +241,6 @@ body {
 
   #contact-us-form {
 	width: 100%;
-	/*height: 550px;*/
 	background: url("../img/contact-us-form-bg-img.png") top left;
 	background-size: cover;
 	position: relative;
