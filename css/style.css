@@ -391,4 +391,11 @@ body {
 #comment-form p{
 	font-family: 'Quicksand',Regular;
 	font-size: 26px;
+	font-weight: 100;
+}
+
+#comment-form .form-label{
+	font-family: 'Quicksand',Medium;
+	font-size: 20px;
+	font-weight: 600;
 }
