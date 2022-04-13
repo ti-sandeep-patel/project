@@ -70,9 +70,10 @@ body {
 	background-color: #E4EFFF !important;
 }
 
-#services{
+#services {
 	background-color: #F6F6F6;
 }
+
 /*Owl Css*/
 .owl-prev {
 	margin-right: 20px;
@@ -285,68 +286,68 @@ body {
 	background: #FFFFFF;
 }
 
-#process .card-title{
-	font-family: 'Quicksand',Medium;
+#process .card-title {
+	font-family: 'Quicksand', Medium;
 	font-size: 28px;
 	font-weight: 600;
 }
 
-#process .card-text{
-	font-family: 'Quicksand',Regular;
-	font-size: 18px;
-	font-weight: 200;
-}
-
-#why-us .why-us-bgimg{
-	background-color: #0054c4 !important;
-	background-image: url("../img/why-us-bgimg.png");
-	height: 100%; 
-}
-
-#why-us .why-us-card-title{
-	font-family: 'Quicksand', Bold;
-	font-size: 80px;
-	font-weight: bold;
-}
-
-#why-us .card-text{
-	font-family: 'Quicksand',Regular;
-	font-size: 24px;
-	font-weight: 200;
-}
-
-#everything-possible .text{
+#process .card-text {
 	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
 
-#everything-possible .bg-image{
+#why-us .why-us-bgimg {
+	background-color: #0054c4 !important;
+	background-image: url("../img/why-us-bgimg.png");
+	height: 100%;
+}
+
+#why-us .why-us-card-title {
+	font-family: 'Quicksand', Bold;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#why-us .card-text {
+	font-family: 'Quicksand', Regular;
+	font-size: 24px;
+	font-weight: 200;
+}
+
+#everything-possible .text {
+	font-family: 'Quicksand', Regular;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#everything-possible .bg-image {
 	background-image: url("../img/slider-bg-image.png");
 	height: auto;
 	position: relative;
 }
 
-#team .text{
+#team .text {
 	font-family: 'Quicksand';
 	font-size: 18px;
 	font-weight: 600;
 }
 
-#team .image{
+#team .image {
 	position: relative;
 	margin-top: -100px;
 }
 
-#achievement{
+#achievement {
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 2;
 }
 
-#achievement .text{
-	font-family: 'Quicksand',Regular;
-    font-size: 28px;
-    font-weight: 200;
+#achievement .text {
+	font-family: 'Quicksand', Regular;
+	font-size: 28px;
+	font-weight: 200;
 }
 
 #blog-banner {
@@ -376,8 +377,18 @@ body {
 	font-weight: normal;
 }
 
-#blog a{
-	font-family: 'Quicksand',Bold;
+#blog a {
+	font-family: 'Quicksand', Bold;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+#comment-form {
+	background: transparent url("../img/comment-bg-img.png") 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+#comment-form p{
+	font-family: 'Quicksand',Regular;
+	font-size: 26px;
 }
