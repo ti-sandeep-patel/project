@@ -159,7 +159,7 @@ body {
 	background-color: var(--main-color);
 }
 
-#contact {
+#contact-us-banner {
 	width: 100%;
 	height: 89.6vh;
 	background: url("../img/banner.png") top left;
@@ -167,7 +167,7 @@ body {
 	position: relative;
 }
 
-#contact:before {
+#contact-us-banner:before {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -176,11 +176,11 @@ body {
 	right: 0;
 }
 
-#contact .container {
+#contact-us-banner .container {
 	position: relative;
 }
 
-#contact .btn-get-started {
+#contact-us-banner .btn-get-started {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 14px;
@@ -193,46 +193,46 @@ body {
 	background: var(--main-color);
 }
 
-#contact .btn-get-started:hover {
+#contact-us-banner .btn-get-started:hover {
 	background: #247cf0;
 }
 
-#contact .text-title {
+#contact-us-banner .text-title {
 	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: normal;
 }
 
 @media (min-width: 1024px) {
-	#contact {
+	#contact-us-banner {
 		/*background-attachment: fixed;*/
 	}
 }
 
 @media (max-width: 768px) {
-	#contact {
+	#contact-us-banner {
 		height: 100vh;
 		height: 300px;
 	}
 
-	#contact h1 {
+	#contact-us-banner h1 {
 		font-size: 28px;
 		line-height: 36px;
 	}
 
-	#contact h2 {
+	#contact-us-banner h2 {
 		font-size: 18px;
 		line-height: 24px;
 		margin-bottom: 30px;
 	}
 
-	#contact .btn-get-started, #contact .btn-watch-video {
+	#contact-us-banner .btn-get-started, #contact-us-banner .btn-watch-video {
 		font-size: 13px;
 	}
 }
 
 @media (max-height: 500px) {
-	#contact {
+	#contact-us-banner {
 		height: 120vh;
 	}
 }
@@ -248,7 +248,7 @@ body {
 	position: relative;
 }
 
-#about {
+#about-banner {
 	width: 100%;
 	height: 89.6vh;
 	background: url("../img/banner.png") top left;
@@ -256,7 +256,7 @@ body {
 	position: relative;
 }
 
-#about:before {
+#about-banner:before {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -265,11 +265,11 @@ body {
 	right: 0;
 }
 
-#about .container {
+#about-banner .container {
 	position: relative;
 }
 
-#about .text-title {
+#about-banner .text-title {
 	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: normal;
@@ -347,4 +347,31 @@ body {
 	font-family: 'Quicksand',Regular;
     font-size: 28px;
     font-weight: 200;
+}
+
+#blog-banner {
+	width: 100%;
+	height: 89.6vh;
+	background: url("../img/banner.png") top left;
+	background-size: cover;
+	position: relative;
+}
+
+#blog-banner:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#blog-banner .container {
+	position: relative;
+}
+
+#blog-banner .text-title {
+	font-family: 'Quicksand', Regular;
+	font-size: 24px;
+	font-weight: normal;
 }
