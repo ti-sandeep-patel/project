@@ -358,15 +358,6 @@ body {
 	position: relative;
 }
 
-#blog-banner:before {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-
 #blog-banner .container {
 	position: relative;
 }
