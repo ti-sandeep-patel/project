@@ -383,6 +383,51 @@ body {
 	font-weight: bold;
 }
 
+#blog-detail{
+
+} 
+
+#blog-detail .blog-title{
+	font-family: 'Quicksand',Medium;
+	font-size: 39px;
+	font-weight: 600;
+}
+
+#blog-detail .blog-text{
+	font-family: 'Quicksand',Regular;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#blog-detail .hor-line:after {
+	position: absolute;
+	content: '';
+	height: 3px;
+	margin-left: 15px;
+	margin-top: 18px;
+	border-radius: 5px;
+	width: 50px;
+	background: var(--main-color);
+}
+
+#blog-detail .recent-post-text::before{
+	position: absolute;
+	content: url('../img/recent-post-img.png');
+	margin-left: -20px;
+}
+
+#blog-detail .recent-post-title{
+	font-family: 'Quicksand',Bold;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#blog-detail .recent-post-text{
+	font-family: 'Quicksand',Regular;
+	font-size: 18px;
+	font-weight: 200;
+}
+
 #comment-form {
 	background: transparent url("../img/comment-bg-img.png") 0% 0% no-repeat padding-box;
 	opacity: 1;
@@ -397,5 +442,5 @@ body {
 #comment-form .form-label{
 	font-family: 'Quicksand',Medium;
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 500;
 }
