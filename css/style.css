@@ -375,3 +375,9 @@ body {
 	font-size: 24px;
 	font-weight: normal;
 }
+
+#blog a{
+	font-family: 'Quicksand',Bold;
+	font-size: 20px;
+	font-weight: bold;
+}
