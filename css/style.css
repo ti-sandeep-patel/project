@@ -374,14 +374,14 @@ body {
 	font-weight: bold;
 }
 
-#blog-detail .blog-title{
-	font-family: 'Quicksand',Medium;
+#blog-detail .blog-title {
+	font-family: 'Quicksand', Medium;
 	font-size: 39px;
 	font-weight: 600;
 }
 
-#blog-detail .blog-text{
-	font-family: 'Quicksand',Regular;
+#blog-detail .blog-text {
+	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -397,20 +397,20 @@ body {
 	background: var(--main-color);
 }
 
-#blog-detail .recent-post-text::before{
+#blog-detail .recent-post-text::before {
 	position: absolute;
 	content: url('../img/recent-post-img.png');
 	margin-left: -20px;
 }
 
-#blog-detail .recent-post-title{
-	font-family: 'Quicksand',Bold;
+#blog-detail .recent-post-title {
+	font-family: 'Quicksand', Bold;
 	font-size: 30px;
 	font-weight: bold;
 }
 
-#blog-detail .recent-post-text{
-	font-family: 'Quicksand',Regular;
+#blog-detail .recent-post-text {
+	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -420,14 +420,26 @@ body {
 	opacity: 1;
 }
 
-#comment-form p{
-	font-family: 'Quicksand',Regular;
+#comment-form p {
+	font-family: 'Quicksand', Regular;
 	font-size: 26px;
 	font-weight: 100;
 }
 
-#comment-form .form-label{
-	font-family: 'Quicksand',Medium;
+#comment-form .form-label {
+	font-family: 'Quicksand', Medium;
 	font-size: 20px;
 	font-weight: 500;
+}
+
+#service .title {
+	font-family: 'Quicksand', Medium;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#service .text{
+	font-family: 'Quicksand',Regular;
+	font-size: 18px;
+	font-weight: 200;
 }
