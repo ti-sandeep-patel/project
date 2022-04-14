@@ -130,9 +130,9 @@ body {
 	text-align: center;
 }
 
-/* #footer .footer-top {
+#footer .footer-top {
 	padding-top: 15rem !important;
-} */
+}
 
 #footer .copyright {
 	color: #000000;
@@ -339,20 +339,6 @@ body {
 	margin-top: -100px;
 }
 
-#team .image_letter{
-	color: #0055C4;
-    /* background-color: rgb(26, 188, 156); */
-    display: inline-block;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 48px;
-    border-radius: 120px;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    margin: 15px;
-    text-align: center;
-}
-
 #achievement {
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 2;
@@ -362,16 +348,13 @@ body {
 	font-family: 'Quicksand', Regular;
 	font-size: 28px;
 	line-height: 2.6rem;
-    padding-left: 70px;
-    padding-right: 50px;
-	padding-bottom: 4.5rem;
+    padding: 0 70px 85px 70px;
 }
 #achievement .text-per{
 	font-family: 'Quicksand', Regular;
 	font-size: 28px;
 	line-height: 2.6rem;
-    padding-left: 70px;
-    padding-right: 50px;
+    padding: 0 70px 0 70px;
 }
 
 #blog .blog-banner {
@@ -466,8 +449,4 @@ body {
 	font-family: 'Quicksand',Regular;
 	font-size: 18px;
 	font-weight: 200;
-}
-
-#everything-possible .owl-carousel .owl-stage-outer{
-	
 }
