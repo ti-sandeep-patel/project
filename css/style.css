@@ -361,7 +361,17 @@ body {
 #achievement .text {
 	font-family: 'Quicksand', Regular;
 	font-size: 28px;
-	font-weight: 200;
+	line-height: 2.6rem;
+    padding-left: 70px;
+    padding-right: 50px;
+	padding-bottom: 4.5rem;
+}
+#achievement .text-per{
+	font-family: 'Quicksand', Regular;
+	font-size: 28px;
+	line-height: 2.6rem;
+    padding-left: 70px;
+    padding-right: 50px;
 }
 
 #blog .blog-banner {
@@ -456,4 +466,8 @@ body {
 	font-family: 'Quicksand',Regular;
 	font-size: 18px;
 	font-weight: 200;
+}
+
+#everything-possible .owl-carousel .owl-stage-outer{
+	
 }
