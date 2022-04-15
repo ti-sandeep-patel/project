@@ -95,7 +95,7 @@ body {
 	border-radius: 20px !important;
 	background: var(--main-color) url("../img/quote-bg.png") no-repeat center center;
 	background-size: cover;
-	bottom: -160px;
+	margin: 0 0 -160px 0;
 	position: relative;
 }
 
