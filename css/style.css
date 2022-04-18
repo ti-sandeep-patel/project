@@ -437,14 +437,14 @@ body {
 
 #our-works .case-study-bg-img {
 	width: 35vw;;
-  	height:105vh;
+  	height:118vh;
 	background: var(--main-color) url("../img/case-study-work-img.png") 0% 0% no-repeat padding-box;
 	background-size: cover;
 }
 
 #our-works .case-study-bg-img2 {
 	width: 40vw;;
-  	height:105vh;
+  	height:118vh;
 	background: #e3a702 url("../img/case-study-work-img.png") 0% 0% no-repeat padding-box;
 	background-size: cover;
 }
