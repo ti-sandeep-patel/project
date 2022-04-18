@@ -199,7 +199,6 @@ body {
 }
 
 #banner-image .text-title {
-	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: normal;
 }
@@ -271,7 +270,6 @@ body {
 }
 
 #about-banner .text-title {
-	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: normal;
 }
@@ -287,13 +285,11 @@ body {
 }
 
 #process .card-title {
-	font-family: 'Quicksand', Medium;
 	font-size: 28px;
 	font-weight: 600;
 }
 
 #process .card-text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -305,19 +301,16 @@ body {
 }
 
 #why-us .why-us-card-title {
-	font-family: 'Quicksand', Bold;
 	font-size: 80px;
 	font-weight: bold;
 }
 
 #why-us .card-text {
-	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: 200;
 }
 
 #everything-possible .text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -332,7 +325,6 @@ body {
 }
 
 #team .text {
-	font-family: 'Quicksand';
 	font-size: 18px;
 	font-weight: 600;
 }
@@ -348,14 +340,12 @@ body {
 }
 
 #achievement .text {
-	font-family: 'Quicksand', Regular;
 	font-size: 28px;
 	line-height: 2.6rem;
 	padding: 0 70px 85px 70px;
 }
 
 #achievement .text-per {
-	font-family: 'Quicksand', Regular;
 	font-size: 28px;
 	line-height: 2.6rem;
 	padding: 0 70px 0 70px;
@@ -374,25 +364,21 @@ body {
 }
 
 #blog-banner .text-title {
-	font-family: 'Quicksand', Regular;
 	font-size: 24px;
 	font-weight: normal;
 }
 
 #blog a {
-	font-family: 'Quicksand', Bold;
 	font-size: 20px;
 	font-weight: bold;
 }
 
 #blog-detail .blog-title {
-	font-family: 'Quicksand', Medium;
 	font-size: 39px;
 	font-weight: 600;
 }
 
 #blog-detail .blog-text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -415,13 +401,11 @@ body {
 }
 
 #blog-detail .recent-post-title {
-	font-family: 'Quicksand', Bold;
 	font-size: 30px;
 	font-weight: bold;
 }
 
 #blog-detail .recent-post-text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -432,62 +416,60 @@ body {
 }
 
 #comment-form p {
-	font-family: 'Quicksand', Regular;
 	font-size: 26px;
 	font-weight: 100;
 }
 
 #comment-form .form-label {
-	font-family: 'Quicksand', Medium;
 	font-size: 20px;
 	font-weight: 500;
 }
 
 #service .title {
-	font-family: 'Quicksand', Medium;
 	font-size: 30px;
 	font-weight: 600;
 }
 
 #service .text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
 
 #our-works .case-study-bg-img {
-	width: 650px;;
-  	height:750px;
+	width: 35vw;;
+  	height:105vh;
 	background: var(--main-color) url("../img/case-study-work-img.png") 0% 0% no-repeat padding-box;
 	background-size: cover;
 }
 
+#our-works .case-study-bg-img2 {
+	width: 40vw;;
+  	height:105vh;
+	background: #e3a702 url("../img/case-study-work-img.png") 0% 0% no-repeat padding-box;
+	background-size: cover;
+}
+
 #our-works .title {
-	font-family: 'Quicksand';
 	font-size: 38px;
 	font-weight: 600;
 }
 
 #our-works .text {
-	font-family: 'Quicksand', Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
 
 #project .project-title{
-	font-family: 'Quicksand',Medium;
 	font-size: 30px;
 	font-weight: 600;
 }
 
 #project .card-title {
-	font-family: 'Quicksand',Medium;
 	font-size: 20px;
 	font-weight: 600;
 }
 
 #project .project-scope{
-	font-family: 'Quicksand',Regular;
 	font-size: 18px;
 	font-weight: 200;
 }
@@ -501,12 +483,17 @@ body {
 
 #project-feature .position{
 	position: relative;
-	margin: 0 0 0 0;
+	margin: -280px 0 0 0;
+}
+
+#project-feature .title{
+	font-size: 30px;
+	font-weight: 600;
 }
 
 #project-screenshort {
 	width: 100%;
-	background: url("../img/contact-us-form-bg-img.png") top left;
+	background: url("../img/contact-us-form-bg-img.png") no-repeat center center;
 	background-size: cover;
 	position: relative;
 }
