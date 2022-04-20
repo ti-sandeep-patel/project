@@ -388,6 +388,9 @@ body {
 	font-weight: 400;
 }
 
+#blog-detail a:hover{
+	color: #0054c4;
+}
 #blog-detail .hor-line:after {
 	position: absolute;
 	content: '';
