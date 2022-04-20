@@ -53,6 +53,10 @@
             margin-top: 1.5em;
             text-align: right;
         }
+
+        .owl-prev {
+            margin-right: -5px;
+        }
     </style>
 
 </head>
@@ -204,11 +208,11 @@
         </div>
         <div class="why-us-bgimg">
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row">
+                <div id="counter" class="row">
                     <div class="col-md-3 mt-5">
                         <div class="card" style="border-radius: 1rem;">
                             <div class="card-body">
-                                <h3 class="why-us-card-title">150</h3>
+                                <h3 class="why-us-card-title" data-count="150">0</h3>
                                 <p class="card-text">Completed Projects</p>
                             </div>
                         </div>
@@ -216,7 +220,7 @@
                     <div class="col-md-3 mt-5">
                         <div class="card" style="border-radius: 1rem;">
                             <div class="card-body">
-                                <h3 class="why-us-card-title">80</h3>
+                                <h3 class="why-us-card-title" data-count="80">0</h3>
                                 <p class="card-text">Clients Served</p>
                             </div>
                         </div>
@@ -224,7 +228,7 @@
                     <div class="col-md-3 mt-5">
                         <div class="card" style="border-radius: 1rem;">
                             <div class="card-body">
-                                <h3 class="why-us-card-title">5</h3>
+                                <h3 class="why-us-card-title" data-count="5">0</h3>
                                 <p class="card-text">Years Of Experience</p>
                             </div>
                         </div>
@@ -232,7 +236,7 @@
                     <div class="col-md-3 mt-5 mb-5">
                         <div class="card" style="border-radius: 1rem;">
                             <div class="card-body">
-                                <h3 class="why-us-card-title">4</h3>
+                                <h3 class="why-us-card-title" data-count="4">0</h3>
                                 <p class="card-text">Global Locations</p>
                             </div>
                         </div>
@@ -252,7 +256,7 @@
         </div>
         <div class="bg-image"></div>
         <div class="container" data-aos="fade-up">
-            <div class="row" style="margin-top: -600px;">   
+            <div class="row" style="margin-top: -600px;">
                 <div class="col-md-6">
                     <h2 class="h1 hor-line"> Everything <span class="fw-bold">Possible.</span>
                     </h2>
@@ -938,6 +942,8 @@
 
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     <script src="./js/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
@@ -949,35 +955,41 @@
         type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     <script src="js/jquery.nameBadges.js"></script>
     <script>
-        function animateValue(item, duration, start = 0) {
-            var end = item.innerText.replaceAll(",", "").trim();
-            var range = end - start;
-            var increment = (range / (duration / 10));
+        var counted = 0;
+        $(window).scroll(function () {
 
-            if (end < start) {
-                increment *= -1;
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (counted == 0 && $(window).scrollTop() > oTop) {
+                $('.why-us-card-title').each(function () {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                        countNum: countTo
+                    },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function () {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function () {
+                                $this.text(this.countNum);
+                            }
+
+                        });
+                });
+                counted = 1;
             }
-            var current = start;
-            var stepTime = 1;
 
-            var timer = setInterval(function () {
-                current += Math.ceil(increment);
-                item.innerText = current;
-                if (current >= end) {
-                    item.innerText = end;
-                    clearInterval(timer);
-                }
-            }, stepTime);
-        }
-
-        document.querySelectorAll('.why-us-card-title').forEach((item) => {
-            animateValue(item, 3000);
         });
 
         $(document).ready(function () {
 
             $('.owl-carousel').owlCarousel({
-                // margin: 1000,
                 items: 1,
                 nav: true,
                 navText: ["<img src='./img/owl-carousel-back.png'>", "<img src='./img/owl-carousel-next.png'>"],

@@ -305,6 +305,11 @@ body {
 	font-weight: bold;
 }
 
+#why-us .why-us-card-title:after{
+	content: "+";
+    display: inline-block;
+}
+
 #why-us .card-text {
 	font-size: 24px;
 	font-weight: 200;
@@ -407,7 +412,8 @@ body {
 
 #blog-detail .recent-post-text {
 	font-size: 18px;
-	font-weight: 200;
+	font-weight: 300;
+	color: #000000;
 }
 
 #comment-form {
