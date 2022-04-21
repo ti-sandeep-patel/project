@@ -301,13 +301,13 @@ body {
 }
 
 #why-us .why-us-card-title {
-	font-size: 80px;
+	font-size: 56px;
 	font-weight: bold;
 }
 
-#why-us .why-us-card-title:after{
+#why-us .why-us-card-title:after {
 	content: "+";
-    display: inline-block;
+	display: inline-block;
 }
 
 #why-us .card-text {
@@ -329,12 +329,12 @@ body {
 
 }
 
-#team .text {
+#about-us-team .text {
 	font-size: 18px;
 	font-weight: 600;
 }
 
-#team .image {
+#about-us-team .image {
 	position: relative;
 	margin-top: -100px;
 }
@@ -388,9 +388,10 @@ body {
 	font-weight: 400;
 }
 
-#blog-detail a:hover{
+#blog-detail a:hover {
 	color: #0054c4;
 }
+
 #blog-detail .hor-line:after {
 	position: absolute;
 	content: '';
@@ -444,11 +445,11 @@ body {
 	font-weight: 200;
 }
 
-#background-img-first{
+#background-img-first {
 	background: url('../img/case-study-bg1.png') no-repeat center left;
 }
 
-#background-img-second{
+#background-img-second {
 	background: url('../img/case-study-bg2.png') no-repeat center right;
 }
 
@@ -500,3 +501,25 @@ body {
 	background-size: cover;
 	position: relative;
 }
+
+
+@media only screen and (max-device-width: 480px)  {
+	#background-img-first {
+		background: none;
+		margin: auto;
+	}
+	#background-img-second {
+		background: none;
+		margin: auto;
+	}
+}
+
+/* @media only screen and (max-device-width: 768px){
+	#background-img-first{
+		margin: auto;
+	}
+
+	#background-img-second{
+		margin: auto;
+	}
+} */

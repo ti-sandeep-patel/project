@@ -293,7 +293,7 @@
         </div>
     </section>
 
-    <section id="team" class="team">
+    <section id="about-us-team" class="about-us-team">
         <div class="container" data-aos="fade-up">
             <div class="row mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-md-12">
@@ -459,7 +459,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 mt-5">
-                    <div class="card mt-5" style="border-radius: 1rem;">
+                    <div class="card mt-5 mb-5" style="border-radius: 1rem;">
                         <div class="text-center image">
                             <!-- <div class="name">D T</div> -->
                             <img src="./img/teams/Creatifie_Team_18.jpg" class="img-fluid rounded-circle" width="230"
@@ -775,10 +775,10 @@
                     <div class="col-md-4 mb-5">
 
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col">
                                 <img src="./img/contact-india.png" class="img-fluid">
                             </div>
-                            <div class="col-6">
+                            <div class="col">
                                 <h3>India</h3>
                                 <p>C – 202,203 Ganesh Meridian Nr. Sola Over Bridge, S.G. Highway Ahmedabad, Gujarat –
                                     380060</p>
@@ -793,10 +793,10 @@
                     <div class="col-md-4 mb-5">
 
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col">
                                 <img src="./img/contact-usa.png" class="img-fluid">
                             </div>
-                            <div class="col-6">
+                            <div class="col">
                                 <h3>USA</h3>
                                 <p>1000 Brickell Ave Suite 715 PMB 5128 Miami FL 33131 TechnoHub</p>
                                 <p class="text-nowrap">
@@ -810,10 +810,10 @@
                     <div class="col-md-4 mb-5">
 
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col">
                                 <img src="./img/contact-uae.png" class="img-fluid">
                             </div>
-                            <div class="col-6">
+                            <div class="col">
                                 <h3>U.A.E</h3>
                                 <p>DTEC Dubai Silicon Oasis Dubai</p>
                                 <p class="text-nowrap">
@@ -995,9 +995,21 @@
                 navText: ["<img src='./img/owl-carousel-back.png'>", "<img src='./img/owl-carousel-next.png'>"],
             });
 
-        });
+            // $(window).resize(function () {
+            //     if ($(this).width() <= 768) {
+            //         console.log('sadsaddsa');
+            //         $('.name').nameBadge({
+            //             border: {
+            //                 width: 0
+            //             },
+            //             colors: ['#A9A9A9'],
+            //             text: '#0055C4',
+            //             margin: -9,
+            //             size: 150
+            //         });
+            //     }
+            // });
 
-        $(document).ready(function () {
             $('.name').nameBadge({
                 border: {
                     width: 0
@@ -1007,6 +1019,7 @@
                 margin: -9,
                 size: 250
             });
+
         });
     </script>
 
