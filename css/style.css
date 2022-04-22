@@ -524,5 +524,22 @@ body {
 		background: none;
 		margin: auto !important;
 	}
-	
+	#hero{
+		height: 360px;
+	}
+	#banner-image{
+		height: 360px;
+	}
+
+	#footer .input-group{
+		margin-bottom: 70px;
+	}
+
+	#footer .form-control{
+		margin: 0 -30px 2px 0;
+	}
+	#footer .input-group-text{
+		position:absolute;
+		margin: 50px 0 0 0;
+	}
 }
