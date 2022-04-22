@@ -993,7 +993,7 @@
                 navText: ["<img src='./img/owl-carousel-back.png'>", "<img src='./img/owl-carousel-next.png'>"],
             });
 
-                updateContainer();
+            updateContainer();
             $(window).resize(function () {
                 updateContainer();
             });
@@ -1001,15 +1001,27 @@
 
         function updateContainer() {
             if ($(window).width() <= 900) {
-                $('.name').nameBadge({
-                    border: {
-                        width: 0
-                    },
-                    colors: ['#A9A9A9'],
-                    text: '#0055C4',
-                    margin: -9,
-                    size: 150
-                });
+                if ($(window).width() <= 480) {
+                    $('.name').nameBadge({
+                        border: {
+                            width: 0
+                        },
+                        colors: ['#A9A9A9'],
+                        text: '#0055C4',
+                        margin: -9,
+                        size: 250
+                    });
+                } else {
+                    $('.name').nameBadge({
+                        border: {
+                            width: 0
+                        },
+                        colors: ['#A9A9A9'],
+                        text: '#0055C4',
+                        margin: -9,
+                        size: 150
+                    });
+                }   
             } else {
                 $('.name').nameBadge({
                     border: {
