@@ -957,7 +957,6 @@
     <script>
         var counted = 0;
         $(window).scroll(function () {
-
             var oTop = $('#counter').offset().top - window.innerHeight;
             if (counted == 0 && $(window).scrollTop() > oTop) {
                 $('.why-us-card-title').each(function () {
@@ -984,7 +983,6 @@
                 });
                 counted = 1;
             }
-
         });
 
         $(document).ready(function () {
@@ -995,32 +993,35 @@
                 navText: ["<img src='./img/owl-carousel-back.png'>", "<img src='./img/owl-carousel-next.png'>"],
             });
 
-            // $(window).resize(function () {
-            //     if ($(this).width() <= 768) {
-            //         console.log('sadsaddsa');
-            //         $('.name').nameBadge({
-            //             border: {
-            //                 width: 0
-            //             },
-            //             colors: ['#A9A9A9'],
-            //             text: '#0055C4',
-            //             margin: -9,
-            //             size: 150
-            //         });
-            //     }
-            // });
-
-            $('.name').nameBadge({
-                border: {
-                    width: 0
-                },
-                colors: ['#A9A9A9'],
-                text: '#0055C4',
-                margin: -9,
-                size: 250
+                updateContainer();
+            $(window).resize(function () {
+                updateContainer();
             });
-
         });
+
+        function updateContainer() {
+            if ($(window).width() <= 900) {
+                $('.name').nameBadge({
+                    border: {
+                        width: 0
+                    },
+                    colors: ['#A9A9A9'],
+                    text: '#0055C4',
+                    margin: -9,
+                    size: 150
+                });
+            } else {
+                $('.name').nameBadge({
+                    border: {
+                        width: 0
+                    },
+                    colors: ['#A9A9A9'],
+                    text: '#0055C4',
+                    margin: -9,
+                    size: 250
+                });
+            }
+        }
     </script>
 
 </body>

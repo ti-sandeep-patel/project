@@ -524,4 +524,14 @@ body {
 		background: none;
 		margin: auto !important;
 	}
+
+	#about-us-team .name {
+		/* border: {
+			width: 0
+		}, */
+		color: #A9A9A9,
+		text: '#0055C4',
+		margin: -9,
+		size: 150
+	}
 }
