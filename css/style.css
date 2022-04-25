@@ -119,6 +119,11 @@ body {
 	#social-media-icons {
 		text-align: center !important;
 	}
+
+	#everything-possible .owl-carousel .owl-nav {
+		text-align: right;
+		padding: 10px;
+	}
 }
 
 .owl-carousel .owl-stage-outer {
@@ -335,6 +340,19 @@ body {
 	position: relative;
 	margin: 0 880px 0 880px;
 
+}
+
+#everything-possible .owl-carousel .owl-stage-outer {
+	overflow: hidden;
+}
+
+#everything-possible .owl-carousel .owl-nav {
+	margin-top: 1.5em;
+	text-align: right;
+}
+
+#everything-possible .owl-prev {
+	margin-right: -5px;
 }
 
 #about-us-team .text {
