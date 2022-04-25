@@ -145,7 +145,7 @@ body {
 #footer input {
 	background-color: #000000 !important;
 	color: #FFFFFF;
-
+	border-radius: 0.4rem;
 }
 
 #footer .foot-title strong {
