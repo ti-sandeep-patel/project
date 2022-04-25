@@ -529,17 +529,6 @@ body {
 }
 
 
-@media only screen and (max-device-width: 480px)  {
-	#background-img-first {
-		background: none;
-		margin: auto !important;
-	}
-	#background-img-second {
-		background: none;
-		margin: auto !important;
-	}
-}
-
 @media only screen and (max-device-width: 900px){
 	#background-img-first{
 		background: none;
